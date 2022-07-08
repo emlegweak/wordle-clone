@@ -238,6 +238,7 @@ media queries
     margin: 0;
    }
    #keyboard-cont{
+    min-width: 0;
     width: 95vw;
     padding: 0 0.25rem;
    }
