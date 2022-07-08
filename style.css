@@ -238,7 +238,7 @@ media queries
     margin: 1rem;
    }
    #keyboard-cont{
-    width: 100%;
+    width: 80%;
     overflow: auto;
     padding: 0 1rem;
    }
