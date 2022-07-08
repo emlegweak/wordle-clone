@@ -93,6 +93,9 @@ media queries
     padding: 1rem;
     margin: 1rem;
    }
+   #keyboard-cont{
+    width: 100%;
+   }
    .keyboard-button{
     font-size: 0.75rem;
     padding: 0.25rem;
