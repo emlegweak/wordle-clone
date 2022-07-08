@@ -220,6 +220,7 @@ keyboard
     margin: 0 2px;
     cursor: pointer;
     text-transform: uppercase;
+    background: tan;
 }
 
 /* 
@@ -246,6 +247,14 @@ media queries
 
     #keyboard-cont {
         width: 100%;
+    }
+
+    .keyboard-button{
+        padding: 0;
+        border: 0;
+        margin: 0 6px 0 0;
+        height: 50px;
+        border-radius: 4px;
     }
 
 }
