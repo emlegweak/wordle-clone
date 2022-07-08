@@ -139,6 +139,12 @@ table {
 general
 =====================================
 */
+* {
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 0;
+}
+
 html{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background: navy;
@@ -233,13 +239,13 @@ media queries
 */
 
 @media screen and (max-width: 400px) {
-   body{
-    padding: 0;
-    margin: 0;
-   }
-   #keyboard-cont{
-    min-width: 0;
-    padding: 0 0.25rem;
-   }
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #keyboard-cont {
+        width: 100%;
+    }
 
 }
