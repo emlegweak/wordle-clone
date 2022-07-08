@@ -248,7 +248,7 @@ media queries
     margin: .1rem;
    }
    #keyboard-cont div {
-       width: 100%;
+       width: 80%;
        justify-content: center;
        overflow: auto;
    }
