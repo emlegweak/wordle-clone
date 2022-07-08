@@ -133,6 +133,12 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/* 
+=====================================
+general
+=====================================
+*/
 html{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background: navy;
@@ -147,6 +153,9 @@ body{
 
 h1 {
     text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1rem 0;
 }
 
 /* 
@@ -230,6 +239,7 @@ media queries
    }
    #keyboard-cont{
     width: 100%;
+    overflow: auto;
    }
    .keyboard-button{
     font-size: 0.75rem;
@@ -239,6 +249,7 @@ media queries
    #keyboard-cont div {
        width: 100%;
        justify-content: center;
+       overflow: auto;
    }
 
 }
