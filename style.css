@@ -7,7 +7,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background: white;
     padding: 2rem 0;
-    margin: 2rem 5rem;
+    margin: 2rem 2rem;
 }
 
 h1 {
@@ -80,4 +80,22 @@ reset board/play again
 
 .reset{
     margin: 2rem 0;
+}
+
+/* 
+=====================================
+media queries
+=====================================
+*/
+
+@media screen and (max-width: 375px) {
+   body{
+    padding: 1rem;
+    margin: 1rem;
+   }
+   .keyboard-button{
+    font-size: 1rem;
+    padding: 0.35rem;
+   }
+
 }
