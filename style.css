@@ -101,5 +101,9 @@ media queries
     padding: 0.25rem;
     margin: .1rem;
    }
+   #keyboard-cont div {
+       width: 100%;
+       justify-content: center;
+   }
 
 }
