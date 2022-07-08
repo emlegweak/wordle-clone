@@ -232,7 +232,7 @@ media queries
 =====================================
 */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
    body{
     padding: 1rem;
     margin: 1rem;
@@ -247,7 +247,7 @@ media queries
     padding: 0.25rem;
     margin: .1rem;
    }
-   #keyboard-cont div {
+   #keyboard-cont .first-row, .second-row, .third-row {
        width: 80%;
        justify-content: center;
        overflow: auto;
