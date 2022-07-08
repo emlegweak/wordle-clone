@@ -240,6 +240,7 @@ media queries
    #keyboard-cont{
     width: 100%;
     overflow: auto;
+    padding: 0 1rem;
    }
    .keyboard-button{
     font-size: 0.75rem;
