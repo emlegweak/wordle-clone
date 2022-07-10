@@ -223,6 +223,10 @@ keyboard
     background: tan;
 }
 
+.inputs{
+    padding-top: 1rem;
+}
+
 /* 
 =====================================
 reset board/play again
@@ -230,7 +234,7 @@ reset board/play again
 */
 
 .reset{
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 /* 
@@ -255,8 +259,15 @@ media queries
         margin: 0 5px 0 0;
         height: 40px;
         width: 25px;
-        font-size: 16px;
         border-radius: 4px;
     }
+   .enter,.del{
+        height: 40px;
+        width: 60px;
+   }
 
+   .reset{
+        height: 40px;
+        width: 60px;
+   }
 }
