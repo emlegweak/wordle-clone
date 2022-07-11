@@ -52,7 +52,28 @@
         <div class="reset inputs">
             <button class="keyboard-button reset">Play Again</button>
         </div>
+         <div>
+            <a href="#popup1" class="keyboard-button info">info</a>
+        </div>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Instructions</h2>
+                <a href="#" class="close">&times;</a>
+                <div class="content">
+                    <ul>
+                        <li>Guess the word in six tries.</li>
+                        <li>Each guess must be a valid five-letter word. Hit the enter button to submit.</li>
+                        <li>After each guess, the color of the tiles will change to show how close your guess was to the correct word.</li>
+                        <li>If the tile is green, the letter is in the word and in the correct spot.</li>
+                        <li>If the tile is yellow, the letter is in the word but in the wrong spot.</li>
+                        <li>If the tile is gray, the letter is not in the word at all.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
+   
 
     <script src="script.js" type="module"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
