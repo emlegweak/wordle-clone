@@ -7,10 +7,34 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/151554f9d1.js" crossorigin="anonymous"></script>
     <title>Wordle Clone</title>
 </head>
 <body>
     <h1>Wordle Clone</h1>
+    <div class="top-buttons">
+     <a href="#popup1" class="info-popup"><i class="fa-solid fa-circle-info info"></i></a>
+    <div class="reset">
+        <button class="reset"><i class="fa-solid fa-arrows-rotate"></i></button>
+    </div>
+    </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Instructions</h2>
+            <a href="#" class="close">&times;</a>
+            <div class="content">
+                <ul>
+                    <li>Guess the word in six tries.</li>
+                    <li>Each guess must be a valid five-letter word. Hit the enter button to submit.</li>
+                    <li>After each guess, the color of the tiles will change to show how close your guess was to the correct
+                        word.</li>
+                    <li>If the tile is green, the letter is in the word and in the correct spot.</li>
+                    <li>If the tile is yellow, the letter is in the word but in the wrong spot.</li>
+                    <li>If the tile is gray, the letter is not in the word at all.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <div id="game-board"></div>
     <div id="keyboard-cont">
         <div class="first-row">
@@ -48,30 +72,7 @@
         <div class="third-row inputs">
             <button class="keyboard-button del">Del</button>
             <button class="keyboard-button enter">Enter</button>
-        </div>
-        <div class="reset inputs">
-            <button class="keyboard-button reset">Play Again</button>
-        </div>
-         <div>
-            <a href="#popup1" class="keyboard-button info">info</a>
-        </div>
-        <div id="popup1" class="overlay">
-            <div class="popup">
-                <h2>Instructions</h2>
-                <a href="#" class="close">&times;</a>
-                <div class="content">
-                    <ul>
-                        <li>Guess the word in six tries.</li>
-                        <li>Each guess must be a valid five-letter word. Hit the enter button to submit.</li>
-                        <li>After each guess, the color of the tiles will change to show how close your guess was to the correct word.</li>
-                        <li>If the tile is green, the letter is in the word and in the correct spot.</li>
-                        <li>If the tile is yellow, the letter is in the word but in the wrong spot.</li>
-                        <li>If the tile is gray, the letter is not in the word at all.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+        </div>  
     </div>
    
 

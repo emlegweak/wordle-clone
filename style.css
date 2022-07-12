@@ -161,7 +161,30 @@ h1 {
     text-align: center;
     font-size: 2rem;
     font-weight: 800;
-    padding: 1rem 0;
+    padding: 0.25rem 0;
+}
+
+.top-buttons{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin: 1rem 0;  
+    
+}
+
+.reset{
+    height: 2rem;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+
+a .info{
+    text-decoration: none;
+    color: black;
+    margin: 0 1rem;
+    font-size: 2rem;
 }
 
 /* 
@@ -227,26 +250,11 @@ keyboard
     padding-top: 1rem;
 }
 
-/* 
+/*  
 =====================================
-reset board/play again
-=====================================
-*/
-
-.reset{
-    margin: 1rem 0;
-}
-
-/* 
-=====================================
-instructions
+instructions overlay
 =====================================
 */
-.info{
-    text-decoration: none;
-    color: black;
-    border: 2px solid black;
-}
 
 .overlay {
     position: fixed;
@@ -338,17 +346,11 @@ media queries
         width: 25px;
         border-radius: 4px;
     }
-   .enter,.del,.reset,.info{
+   .enter,.del{
         height: 40px;
-        width: 60px;
+        width: 100px;
+        margin-bottom: 10px;
    }
-
-   .info{
-        text-align: center;
-        margin: 1rem 0;
-        padding-top: 10px;
-   }
-
 }
 
 @media screen and (max-width: 700px) {
